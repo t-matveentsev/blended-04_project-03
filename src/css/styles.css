@@ -72,8 +72,8 @@ button {
 
 /* відступи між секціями */
 .section {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
