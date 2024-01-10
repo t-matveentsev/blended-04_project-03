@@ -1,0 +1,28 @@
+.section-about {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.accent {
+    color: #BEA69E;
+}
+
+.list-about {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-about {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
