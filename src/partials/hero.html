@@ -14,43 +14,68 @@
                     <li class="student-photo">
                         <picture>
                             <!--Tablet+Desktop-->
-                            <source media="(min-width:768px, max-width:1440px)" srcset="
-                                ./src/img/hero/girl1_tab@1x.jpg 1x,
-                                ./src/img/hero/girl1_tab@2x.jpg 2x" />
+                            
                             <!--Mobile-->
-                            <source media="(max-width:767px)" srcset="
-                                /src/img/hero/girl1_mob@1x.jpg 1x,
-                                /src/img/hero/girl1_mob@2x.jpg 2x" />
-                            <img src="./src/img/hero/girl1_mob@1x.jpg" alt="Caitlyn King photo" width="44" height="44"
+                            <source 
+                                media="(max-width:767px)" 
+                                srcset="
+                                    /src/img/hero/girl1.mob@1x.png 1x,
+                                    /src/img/hero/girl1.mob@2x.png 2x" />
+                            <source 
+                                media="(min-width:768px, max-width:1440px)" 
+                                srcset="
+                                    /src/img/hero/girl1.tab@1x.png 1x,
+                                    /src/img/hero/girl1.tab@2x.png 2x" />        
+                            <img 
+                                src="/src/img/hero/girl1.mob@1x.png" 
+                                alt="Caitlyn King photo" 
+                                width="44" 
+                                height="44"
                                 loading="lazy" />
                         </picture>
                     </li>
                     <li class="student-photo">
                         <picture>
                             <!--Tablet+Desktop-->
-                            <source media="(min-width:768px, max-width:1440px)" srcset="
-                                ./src/img/hero/boy_tab@1x.jpg 1x,
-                                ./src/img/hero/boy_tab@2x.jpg 2x" />
+                            <source 
+                                media="(min-width:768px, max-width:1440px)" 
+                                srcset="
+                                    /src/img/hero/boy.tab@1x.png 1x,
+                                    /src/img/hero/boy.tab@1x.png 2x" />
                             <!--Mobile-->
-                            <source media="(max-width:767px)" srcset="
-                                ./src/img/hero/boy_mob@1x.jpg 1x,
-                                ./src/img/hero/boy_mob@2x.jpg 2x" />
-                            <img src="./src/img/hero/boy_mob@1x.jpg" alt="Jordan Burgess photo" width="44" height="44"
+                            <source 
+                                media="(max-width:767px)" 
+                                srcset="
+                                    /src/img/hero/boy.mob@1x.png 1x,
+                                    /src/img/hero/boy.mob@2x.png 2x" />
+                            <img 
+                                src="/src/img/hero/boy.mob@1x.png" 
+                                alt="Jordan Burgess photo" 
+                                width="44" 
+                                height="44"
                                 loading="lazy" />
                         </picture>
                     </li>
                     <li class="student-photo">
                         <picture>
-                            <!--Tablet+Desktop-->
-                            <source media="(min-width:768px, max-width:1440px)" srcset="
-                                ./src/img/hero/girl2_tab@1x.jpg 1x,
-                                ./src/img/hero/girl2_tab@2x.jpg 2x" />
                             <!--Mobile-->
-                            <source media="(max-width:767px)" srcset="
-                                ./src/img/hero/girl2_mob@1x.jpg 1x,
-                                ./src/img/hero/girl2_mob@2x.jpg 2x" />
-                            <img src="./src/img/hero/girl2_mob@1x.jpg" alt="Adriana O'Sullivan photo" width="44"
-                                height="44" loading="lazy" />
+                            <source 
+                                media="(max-width:767px)" 
+                                srcset="
+                                    /src/img/hero/girl2.mob@1x.png 1x,
+                                    /src/img/hero/girl2.mob@2x.png 2x" />
+                            <!--Tablet+Desktop-->
+                            <source 
+                                media="(min-width:768px, max-width:1440px)" 
+                                srcset="
+                                    /src/img/hero/girl2.tab@1x.png 1x,
+                                    /src/img/hero/girl2.tab@2x.png 2x" />
+                            <img 
+                                src="/src/img/hero/girl2.tab@1x.png" 
+                                alt="Adriana O'Sullivan photo" 
+                                width="44"
+                                height="44" 
+                                loading="lazy" />
                         </picture>
                     </li>
                 </ul>
@@ -79,17 +104,29 @@
         </div>
         <picture>
             <!--Mobile-->
-            <source media="(max-width:767px)" srcset="
-                    ./src/img/hero/photographer_mob@1x.jpg,
-                    ./src/img/hero/photographer_mob@2x.jpg" />
-            <img src="./src/img/hero/photographer_mob@1x.jpg" alt="Men with red hair and old camera" width="259px"
-                height="314px" loading="lazy" />
-            <source media="(min-width:768px)" srcset="
-                    ./src/img/hero/photographer_tab@1x.jpg,
-                    ./src/img/hero/photographer_tab@2x.jpg" />
-            <source media="(min-width:1280px, max-width=1440px)" srcset="
-                    ./src/img/hero/photographer_desk@1x.jpg,
-                    ./src/img/hero/photographer_desk@2x.jpg" />
+            <source 
+                media="(max-width:767px)" 
+                srcset="/src/img/hero/photographer.mob@1x.png 1x, /src/img/hero/photographer.mob@2x.png 2x" />
+            <!--Tablet-->
+            <source 
+                media="(min-width:768px)" 
+                srcset="/src/img/hero/photographer.tab@1x.png 1x, /src/img/hero/photographer.tab@1x.png 2x" />
+            <!--Desktop-->
+            <source 
+                media="(min-width:1280px)" 
+                srcset="
+                    /src/img/hero/photographer.desk@1x.png 1x,
+                    /src/img/hero/photographer.desk@2x.png 2x" />
+            <img 
+                src="/src/img/hero/photographer.mob@1x.png" 
+                alt="Men with red hair and old camera" 
+                width="259px"
+                height="314px" 
+                loading="lazy" />
+            
         </picture>
     </div>
 </section>
+
+
+C:\Users\ktvpo\Documents\GitHub\blended-04_project-03\src\img\hero\photographer.tab@1x.png
