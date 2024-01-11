@@ -8,20 +8,8 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.hidd {
+  display: none;
 }
 
 body {
@@ -55,8 +43,7 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-ul,
-ol {
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -70,10 +57,14 @@ button {
   cursor: pointer;
 }
 
+.accent {
+  color: #bea69e;
+}
+
 /* відступи між секціями */
 .section {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
