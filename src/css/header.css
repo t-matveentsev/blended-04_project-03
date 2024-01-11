@@ -1,0 +1,44 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 335px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+
+.navigation-list {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .navigation-list {
+    display: flex;
+  }
+}
+
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+  height: 22px;
+  width: 32px;
+
+  border: none;
+  background-color: inherit;
+  stroke: white;
+}
+
+.camera-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  fill: #bea69e66;
+  background-color: #1d1d1d;
+}
