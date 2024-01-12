@@ -27,16 +27,6 @@
     background-image: url(../img/footer/Graphic_desk@2x.png);
   }
 }
-@media only screen and (min-width: 1440px) {
-  .footer {
-    background-image: url(../img/footer/Graphic_desk-big.png);
-  }
-}
-@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-  .footer {
-    background-image: url(../img/footer/Graphic_desk-big@2x.png);
-  }
-}
 .footer-wraper {
   display: flex;
   flex-direction: column;
