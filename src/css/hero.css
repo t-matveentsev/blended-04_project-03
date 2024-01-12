@@ -67,7 +67,8 @@
     padding-bottom: 40px;
 }
 
-.hero-info {}
+.hero-info {
+}
 
 .photo-link {
 
@@ -86,9 +87,11 @@
 .student-photo {
     width: 44px;
     height: 44px;
+
 }
 
-.hero-reviews-link {}
+.hero-reviews-link {
+}
 
 .happy-students-link {
     color: #FFF;
@@ -103,8 +106,11 @@
 
 }
 
-.ero-star {}
+.ero-star {
+}
 
-.hero-reviews-text {}
+.hero-reviews-text {
+}
 
-.hero-reviews-numbers {}
+.hero-reviews-numbers {
+}
