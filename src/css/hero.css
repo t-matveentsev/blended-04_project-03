@@ -1,26 +1,17 @@
 
-.hero-section {
-    outline: 2px solid red;
-    outline-offset: -2px;
+.hero {
+    margin-top: 90px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
 
-    min-width: 320px;
-    max-width: 375px;
-    /* width: 335px; */
-    height: 777px;
-    flex-shrink: 0;
-
+.hero-container.container {
+    width: 100%;
     border-radius: 30px;
     background: #1D1D1D;
-    margin-top: 20px;
-    margin-bottom: 80px;
-}
-
-.background-image {
-
-}
-
-.hero-container {
-
+    padding-top: 40px;
+    
 }
 
 .hero-title {
@@ -31,7 +22,6 @@
     line-height: 1.1;
     letter-spacing: -0.04em;
 
-    padding-top: 40px;
     padding-bottom: 20px;
 }
 
@@ -67,30 +57,60 @@
     padding-bottom: 40px;
 }
 
-.hero-info {
-}
-
-.photo-link {
-
-}
-
 .happy-students {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.reviews-chart {
+    display: flex;
     align-items: center;
+    width: 104px;
+    gap: 12px;
 }
 
 .happy-students-photos {
     display: flex;
+
 }
 
 .student-photo {
     width: 44px;
     height: 44px;
+    border-radius: 100px;
+    border: 2px solid #1D1D1D;
 
 }
 
-.hero-reviews-link {
+.first {
+    position: relative;
+    z-index: 2;
+}
+
+.second {
+    position: relative;
+    z-index: 3;
+}
+
+.third {
+    position: relative;
+    z-index: 1;
+}
+
+.student-photo:nth-child(1) {
+    margin-right: -12px;
+}
+
+.student-photo:nth-child(2) {
+    margin-right: -12px;
+}
+
+.hero-reviews-link {    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
 }
 
 .happy-students-link {
@@ -100,17 +120,44 @@
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.04em;
+    width: 67px;
 }
 
 .hero-arrow {
-
+    fill: #FFF;
 }
 
-.ero-star {
+.hero-star {    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background-color: #BEA69E;
+}
+
+.star {
+    fill: none;
+    stroke: #121212;
 }
 
 .hero-reviews-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+    width: 57px;
 }
 
 .hero-reviews-numbers {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.13;
+    letter-spacing: -0.04em;
+    width: 57px;
 }
