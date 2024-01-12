@@ -38,6 +38,9 @@
   display: inline-block;
   margin-bottom: 16px;
 }
+.footer-logo-icon {
+  fill: #ffffff;
+}
 .footer-contacts {
 }
 .footer-cont-list {
