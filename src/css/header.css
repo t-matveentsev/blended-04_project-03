@@ -61,7 +61,8 @@
   .header-list-item {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .header-list-item:hover {
+  .header-list-item:hover,
+  .header-list-item:focus {
     color: #bea69e;
   }
 }
@@ -92,7 +93,8 @@
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.camera-link:hover {
+.camera-link:hover,
+.camera-link:focus {
   fill: #bea69e;
 }
 @media only screen and (min-width: 768px) {
