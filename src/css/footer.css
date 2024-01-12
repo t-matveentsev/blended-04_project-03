@@ -11,6 +11,7 @@
 @media only screen and (min-width: 768px) {
   .footer {
     background-image: url(../img/footer/Graphic_tab.png);
+    padding: 50px 0 25px;
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -33,11 +34,31 @@
   flex-direction: column;
   gap: 40px;
 }
-.footer-box {
+@media only screen and (min-width: 768px) {
+  .footer-wraper {
+    flex-direction: row;
+    gap: 58px;
+  }
 }
+@media only screen and (min-width: 1280px) {
+  .footer-wraper {
+    gap: 137px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-box {
+    margin-right: auto;
+  }
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-logo {
+    margin-bottom: 25px;
+  }
 }
 .footer-logo-icon {
   fill: #ffffff;
@@ -60,7 +81,19 @@
 }
 .footer-links-wraper {
   display: flex;
-  gap: 40px;
+  gap: 25px;
+  margin-bottom: 75px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-links-wraper {
+    margin-bottom: 74px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-links-wraper {
+    gap: 50px;
+    margin-bottom: 50px;
+  }
 }
 .footer-socials {
 }
@@ -95,6 +128,16 @@
 .footer-form-field {
   width: 267px;
 }
+@media only screen and (min-width: 768px) {
+  .footer-form-field {
+    width: 178px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-form-field {
+    width: 216px;
+  }
+}
 .footer-form-input {
   max-width: 267px;
   width: 100%;
@@ -105,6 +148,16 @@
   border: none;
   border-radius: 12px;
   background-color: #fff;
+}
+@media only screen and (min-width: 768px) {
+  .footer-form-input {
+    max-width: 178px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-form-input {
+    max-width: 216px;
+  }
 }
 .footer-form-input::placeholder {
   color: currentColor;
@@ -136,6 +189,10 @@
   font-weight: 400;
   line-height: 1.33;
   color: #fff;
-  /* line-height: 1.29; */
-  /* font-size: 14px; */
+}
+@media only screen and (min-width: 768px) {
+  .footer-right {
+    font-size: 14px;
+    line-height: 1.29;
+  }
 }
