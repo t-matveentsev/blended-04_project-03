@@ -1,5 +1,6 @@
 .footer {
   padding: 40px 0 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-image: url(../img/footer/Graphic_mob.png);
 }
 @media only screen and (max-width: 767.98px) and (min-resolution: 192dpi) {
@@ -92,10 +93,11 @@
   margin-bottom: 40px;
 }
 .footer-form-field {
-  max-width: 267px;
+  width: 267px;
 }
 .footer-form-input {
   max-width: 267px;
+  width: 100%;
   height: 60px;
   padding: 20px 18px;
   color: #121212;
