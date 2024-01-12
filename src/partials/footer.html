@@ -59,8 +59,9 @@
           <label class="footer-form-field">
             <input
               class="footer-form-input"
-              name="subscribe-user-mail"
+              name="user-email"
               type="email"
+              pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
               placeholder="Enter your email"
             />
           </label>
@@ -69,10 +70,14 @@
       </div>
     </div>
     <div class="footer-rights">
-      <p class="footer-right">Privacy Policy</p>
-      <p class="footer-right">Public Offering Agreement</p>
-      <p class="footer-right">2023 Focus Frame</p>
-      <p class="footer-right">&#169; All rights reserved</p>
+      <div class="footer-ringht-left">
+        <p class="footer-right">Privacy Policy</p>
+        <p class="footer-right">Public Offering Agreement</p>
+      </div>
+      <div class="footer-ringht-right">
+        <p class="footer-right">2023 Focus Frame</p>
+        <p class="footer-right">&#169; All rights reserved</p>
+      </div>
     </div>
   </div>
 </footer>

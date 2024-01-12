@@ -96,8 +96,10 @@
 .footer-form {
   display: flex;
   gap: 8px;
+  margin-bottom: 40px;
 }
 .footer-form-field {
+  max-width: 267px;
 }
 .footer-form-input {
   max-width: 267px;
@@ -131,6 +133,8 @@
   line-height: 1.2;
 }
 .footer-rights {
+  display: flex;
+  justify-content: space-between;
 }
 .footer-right {
   font-size: 12px;
