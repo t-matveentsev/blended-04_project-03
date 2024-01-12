@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/blended-04_project-03/favicon.svg" />
-    <meta name="description" content="Focus Frame" />
+    <meta name="description" content="Focus.Frame" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -20,35 +20,95 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/blended-04_project-03/assets/index-8d566630.css">
+    <link rel="stylesheet" href="/blended-04_project-03/assets/index-079bc22a.css">
   </head>
   <body>
     <section class="head">
-  <div class="container head-wrapper">
-    <nav class="navigation">
-      <a href="" class="logo">Focus.Frame</a>
-      <ul class="navigation-list">
-        <li class="header-list-item"><a href="./about_us.html"></a>About us</li>
-        <li class="header-list-item">
-          <a href="./our_courses.html">Our courses</a>
-        </li>
-        <li class="header-list-item">
-          <a href="./our_mentors.html">Our mentors</a>
-        </li>
-        <li class="header-list-item"><a href="./reviews.html"></a>Reviews</li>
-        <li class="header-list-item"><a href="./footer.html"></a>contacts</li>
-      </ul>
-      <a href="./sing_up.html" class="camera-link">
-        <svg class="camera-icon" width="16" height="16">
-          <use href="/blended-04_project-03/assets/sprite-99d2af51.svg#camera-sing-up"></use>
-        </svg>
-      </a>
-      <button class="menu-btn" type="button" aria-label="Open menu button">
-        <svg class="burger-menu" width="32" height="22">
-          <use href="/blended-04_project-03/assets/sprite-99d2af51.svg#burger-menu"></use>
+  <div class="container desk-head">
+    <div class="header-wrapper">
+      <nav class="navigation">
+        <a href="./index.html" class="header-logo">
+          <svg class="header-icon-logo" width="123" height="16">
+            <use href="/blended-04_project-03/assets/sprite-e75a86bc.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="navigation-list">
+          <li class="header-list-item"><a href="#about_us"></a>About us</li>
+          <li class="header-list-item">
+            <a href="#our_courses">Our courses</a>
+          </li>
+          <li class="header-list-item">
+            <a href="#our_mentors">Our mentors</a>
+          </li>
+          <li class="header-list-item"><a href="#reviews"></a>Reviews</li>
+          <li class="header-list-item"><a href="#footer"></a>contacts</li>
+        </ul>
+      </nav>
+      <div class="btn-wrapper">
+        <a href="#sing-up" class="camera-link">
+          <svg class="camera-icon" width="16" height="16">
+            <use href="/blended-04_project-03/assets/sprite-e75a86bc.svg#camera-sing-up"></use>
+          </svg>
+        </a>
+        <button class="menu-btn" type="button" aria-label="Open menu button">
+          <svg class="burger-menu" width="32" height="22">
+            <use href="/blended-04_project-03/assets/sprite-e75a86bc.svg#burger-menu"></use>
+          </svg>
+        </button>
+        <button
+          class="menu-btn-tab"
+          type="button"
+          aria-label="Open menu button"
+        >
+          <svg class="burger-menu" width="40" height="28">
+            <use href="/blended-04_project-03/assets/sprite-e75a86bc.svg#burger-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <a class="desk-btn" href="#sing-up">sing up</a>
+  </div>
+  <!-- mobile menu -->
+  <div class="mobile-menu">
+    <div class="modal">
+      <button
+        class="mobile-menu-btn"
+        type="button"
+        aria-label="close menu button"
+      >
+        <svg class="close-icon" width="32" height="32">
+          <use href="/blended-04_project-03/assets/sprite-e75a86bc.svg#close-icon"></use>
         </svg>
       </button>
-    </nav>
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <a href="#about_us"></a><span class="menu-accent">About us</span>
+        </li>
+        <li class="menu-list-item">
+          <a href="#our_courses">Our courses</a>
+        </li>
+        <li class="menu-list-item">
+          <a href="#our_mentors">Our mentors</a>
+        </li>
+        <li class="menu-list-item"><a href="#reviews"></a>Reviews</li>
+        <li class="menu-list-item"><a href="#footer"></a>contacts</li>
+      </ul>
+      <picture>
+        <source
+          media="minwidth: 768px"
+          srcset="/blended-04_project-03/assets/tab-menu_x1-32a4921c.jpg 1x, /blended-04_project-03/assets/tab-menu_x2-1b1d7a9b.jpg 2x"
+        />
+        <source
+          media="(maxwidth: 767px)"
+          srcset="/blended-04_project-03/assets/mob-menu_x1-19073488.jpg 1x, /blended-04_project-03/assets/mob-menu_x2-a803e100.jpg 2x"
+        />
+        <img
+          src="/blended-04_project-03/assets/mob-menu_x1-19073488.jpg"
+          alt="camera"
+          class="menu-img"
+        />
+      </picture>
+    </div>
   </div>
 </section>
 
@@ -274,7 +334,7 @@
           <p class="card-number">01</p>
           <a class="arrow" href="">
             <svg class="arrow-icon" width="20" height="20">
-              <use href="/blended-04_project-03/assets/sprite-99d2af51.svg#icon-arrow"></use>
+              <use href="/blended-04_project-03/assets/sprite-e75a86bc.svg#icon-arrow"></use>
             </svg>
           </a>
         </div>
@@ -289,7 +349,7 @@
           <p class="card-number">02</p>
           <a class="arrow" href="">
             <svg class="arrow-icon" width="20" height="20">
-              <use href="/blended-04_project-03/assets/sprite-99d2af51.svg#icon-arrow"></use>
+              <use href="/blended-04_project-03/assets/sprite-e75a86bc.svg#icon-arrow"></use>
             </svg>
           </a>
         </div>
@@ -304,7 +364,7 @@
           <p class="card-number">03</p>
           <a class="arrow" href="">
             <svg class="arrow-icon" width="20" height="20">
-              <use href="/blended-04_project-03/assets/sprite-99d2af51.svg#icon-arrow"></use>
+              <use href="/blended-04_project-03/assets/sprite-e75a86bc.svg#icon-arrow"></use>
             </svg>
           </a>
         </div>
