@@ -1,46 +1,109 @@
-.hero-text {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: -1.6px;
-}
 
 .hero-section {
+    outline: 2px solid red;
+    outline-offset: -2px;
+
+    min-width: 320px;
+    max-width: 375px;
+    /* width: 335px; */
+    height: 777px;
+    flex-shrink: 0;
+
+    border-radius: 30px;
+    background: #1D1D1D;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .background-image {
+
 }
 
 .hero-container {
+
+}
+
+.hero-title {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-title {
+        padding-top: 120px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-title {
+        padding-top: 160px;
+    }
 }
 
 .hero-accent {
+    color: #BEA69E;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
 }
 
 .hero-text {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.02em;
+    padding-bottom: 40px;
 }
 
 .hero-info {
 }
 
+.photo-link {
+
+}
+
 .happy-students {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .happy-students-photos {
+    display: flex;
 }
 
 .student-photo {
+    width: 44px;
+    height: 44px;
+
 }
 
 .hero-reviews-link {
 }
 
 .happy-students-link {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
 }
 
 .hero-arrow {
+
 }
 
 .ero-star {
