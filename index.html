@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/blended-04_project-03/assets/index-26a644ce.css">
+    <link rel="stylesheet" href="/blended-04_project-03/assets/index-32fd265c.css">
   </head>
   <body>
     <section class="head">
@@ -435,58 +435,91 @@
   </div>
 </section>
 
-    <section>
-  <div class="container sign-up">
-    <h2>Sign<span class="accent"> Up</span></h2>
-    <p>
-      Please use the form below to contact us. Enter your name, email, and
-      message and we'll get back to you shortly.
-    </p>
-    <form class="sign-up-form" action="">
-      <div class="sign-up-form-input">
-        <label class="form-lable" for="user-name"></label>
-        <div class="form-field">
-          <input
-            class="form-input"
-            id="user-name"
-            type="text"
-            name="user-name"
-            maxlength="32"
-            pattern="[A-Za-z]{1,32}"
-            placeholder="Enter your name"
-          />
-        </div>
+    <section id="sign-up" class="sign-up-section">
+  <div class="container sign-up-main">
+    <div class="sign-up">
+      <h2 class="title-sign-up">Sign<span class="accent"> Up</span></h2>
+      <p class="sign-up-paragraph">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="sign-up-form" action="">
         <div class="sign-up-form-input">
-          <label class="form-lable" for="email-address"></label>
+          <label class="form-lable" for="user-name"></label>
           <div class="form-field">
             <input
               class="form-input"
-              id="email-address"
-              type="email"
-              name="email"
-              pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
-              placeholder="Enter your email"
+              id="user-name"
+              type="text"
+              name="user-name"
+              maxlength="32"
+              pattern="[A-Za-z]{1,32}"
+              placeholder="Enter your name"
             />
           </div>
+          <div class="sign-up-form-input">
+            <label class="form-lable" for="email-address"></label>
+            <div class="form-field">
+              <input
+                class="form-input"
+                id="email-address"
+                type="email"
+                name="email"
+                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+          <div class="sign-up-form-comment">
+            <label class="form-lable" for="user-comment"></label>
+            <textarea
+              class="form-comment"
+              name="user-comment"
+              id="user-comment"
+              rows="4"
+              placeholder="Message"
+            ></textarea>
+          </div>
         </div>
-        <div class="sign-up-form-comment">
-          <label class="form-lable" for="user-comment"></label>
-          <textarea
-            class="form-comment"
-            name="user-comment"
-            id="user-comment"
-            rows="4"
-            placeholder="Message"
-          ></textarea>
-        </div>
-      </div>
-      <button class="button-send" type="submit">Send</button>
-      <p class="privacy-policy">
-        By clicking on “Send” button, you agree to our
-        <span class="privacy-policy-accent">Privacy Policy</span>, and allow
-        Promodo to use this information for marketing purposes.
-      </p>
-    </form>
+        <button class="button-send" type="submit">Send</button>
+        <p class="privacy-policy">
+          By clicking on “Send” button, you agree to our
+          <span class="privacy-policy-accent">Privacy Policy</span>, and allow
+          Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+    <ul class="sign-up-picture">
+      <li class="sign-up-oval-lens">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="./images/lens_desk@1x.png 1x, ./images/lens_desk@2x.png 2x"
+          />
+          <img
+            class="sign-up-lens-picture"
+            src="./images/lens_desk@x1.png"
+            alt="Camera lens"
+          />
+        </picture>
+      </li>
+      <li class="sign-up-oval-camera">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/camera_desk@1x.png 1x,
+              ./images/camera_desk@2x.png 2x
+            "
+          />
+          <img
+            class="sign-up-camera-picture"
+            src="./images/camera_desk@x1.png"
+            alt="Photo Camera"
+          />
+        </picture>
+      </li>
+    </ul>
   </div>
 </section>
 
