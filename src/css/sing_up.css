@@ -1,52 +1,78 @@
+.sign-up {}
+
 @media only screen and (min-width: 768px) {
-  .sign-up {
-    padding-left: 32px;
-    max-width: 768px;
-  }
+    .sign-up-main {
+        padding-left: 32px;
+        max-width: 768px;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
-  .sign-up {
-    padding-left: 100px;
-    max-width: 1280px;
-  }
+
+    .sign-up-main {
+        padding-left: 100px;
+        max-width: 1280px;
+
+    }
+
 }
 
-h2 {
-  color: #fff;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: -0.04em;
+@media only screen and (min-width: 1280px) {
+    .sign-up {
+        margin-right: 60px;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .sign-up-oval-lens {
+        margin-right: 20px;
+
+    }
+}
+
+.title-sign-up {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  h2 {
-    font-size: 48px;
-    line-height: 1.12;
-  }
+    .title-sign-up {
+        font-size: 48px;
+        line-height: 1.12;
+    }
 }
 
-p {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
 
-  max-width: 295px;
-  margin-bottom: 40px;
+.accent {
+    color: #BEA69E;
 }
 
-@media only screen and (min-width: 768px) {
-  p {
-    font-size: 16px;
+.sign-up-paragraph {
+    color: #FFF;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 1.25;
-    max-width: 480px;
-  }
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+
+    max-width: 295px;
+    margin-bottom: 41px;
 }
+
+@media only screen and (min-width: 768px) {
+    .sign-up-paragraph {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        max-width: 480px;
+        margin-bottom: 40px;
+    }
 
 .sign-up-form-input:focus {
   border-radius: 12px;
@@ -209,5 +235,68 @@ textarea {
 }
 
 .privacy-policy-accent {
-  text-decoration-line: underline;
+    text-decoration-line: underline;
 }
+
+@media only screen and (max-width: 1279.98px) {
+    .sign-up-picture {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .sign-up-main {
+
+        display: flex;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .sign-up-picture {
+        display: flex;
+    }
+}
+
+.sign-up-oval-lens {
+
+    width: 180px;
+    height: 288px;
+    flex-shrink: 0;
+
+    border-radius: 1000px;
+    background: #BEA69E;
+
+    position: relative;
+    top: 252px;
+}
+
+.sign-up-oval-camera {
+    width: 340px;
+    height: 540px;
+    flex-shrink: 0;
+
+    border-radius: 1000px;
+    background: #1D1D1D;
+}
+
+.sign-up-lens-picture {
+
+    width: 150px;
+    height: 142px;
+
+
+    margin-top: 76px;
+}
+
+.sign-up-camera-picture {
+
+    width: 240px;
+    height: 296px;
+
+    position: relative;
+    top: 156px;
+    left: 50px;
+}
+
