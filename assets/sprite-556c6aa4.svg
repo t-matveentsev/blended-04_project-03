@@ -10,6 +10,8 @@
             <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h23040">
             </path>
         </symbol>
+
+
         <symbol id="camera-sign-up" viewBox="0 0 32 32">
             <path
                 d="M21 17a4.997 4.997 0 0 1-5 5 5.002 5.002 0 0 1-5-5 4.998 4.998 0 0 1 8.536-3.536A4.998 4.998 0 0 1 21 17z" />
@@ -19,6 +21,7 @@
         <symbol id="burger-menu" viewBox="0 0 47 32">
             <path stroke-linecap="round" stroke-width="2.909"
                 d="M8.538 5.333h36.553M8.538 24.727h36.553M19.668 15.03h25.423" />
+
         </symbol>
     </defs>
 </svg>
