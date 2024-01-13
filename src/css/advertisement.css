@@ -1,3 +1,8 @@
+.running {
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+     border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+}
+
 .block-title {
     color: #BEA69E;
     font-family: DM Sans;
@@ -34,8 +39,7 @@
     height: 72px;
     padding: 0;
     overflow: hidden;
-    border-top: 1px solid rgba(255, 255, 255, 0.20);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+
 }
 
 @media only screen and (min-width: 768px) {
