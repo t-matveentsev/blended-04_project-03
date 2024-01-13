@@ -110,6 +110,12 @@
 .footer-menu-item:not(:last-child) {
   margin-bottom: 14px;
 }
+.footer-soc-item:hover,
+.footer-soc-item:focus,
+.footer-menu-item:hover,
+.footer-menu-item:focus {
+  color: #bea69e;
+}
 .footer-soc-link {
 }
 .footer-menu {
