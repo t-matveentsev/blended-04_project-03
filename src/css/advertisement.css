@@ -9,8 +9,10 @@
         line-height: 1.14;
         letter-spacing: -0.02em;
         text-transform: uppercase;
+       /* overflow: hidden;*/
 
 }
+
 
 @media only screen and (min-width: 768px) {
     .advertisement-title {
@@ -28,7 +30,7 @@
     color: #FFF;
 }
 
-.advertisement {
+.advertisement-block {
     width: 588px;
     height: 72px;
     display: inline-flex;
@@ -40,7 +42,7 @@
 }      
 
 @media only screen and (min-width: 768px) {
-.advertisement{
+.advertisement-block{
     width: 840px;
     height: 98px;
     gap: 24px;
@@ -49,7 +51,7 @@ border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
 }
 @media only screen and (min-width: 1280px) {
-    .advertisement {
+    .advertisement-block {
         width: 1280px;
         height: 112px;
     }
