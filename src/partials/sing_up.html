@@ -1,4 +1,4 @@
-<section id="sign-up" class="sign-up-section">
+<section id="sign-up" class="section">
   <div class="container sign-up-main">
     <div class="sign-up">
       <h2 class="title-sign-up">Sign<span class="accent"> Up</span></h2>
@@ -54,30 +54,33 @@
     </div>
     <ul class="sign-up-picture">
       <li class="sign-up-oval-lens">
-        <picture>
+        <picture class="sign-up-picture-element">
           <source
             media="(min-width: 1280px)"
-            srcset="./images/lens_desk@1x.png 1x, ./images/lens_desk@2x.png 2x"
+            srcset="
+              ./img/sign-up/lens_desk@1x.png 1x,
+              ./img/sign-up/lens_desk@2x.png 2x
+            "
           />
           <img
             class="sign-up-lens-picture"
-            src="./images/lens_desk@x1.png"
+            src="./img/sign-up/lens_desk.png"
             alt="Camera lens"
           />
         </picture>
       </li>
       <li class="sign-up-oval-camera">
-        <picture>
+        <picture class="sign-up-picture-element">
           <source
             media="(min-width: 1280px)"
             srcset="
-              ./images/camera_desk@1x.png 1x,
-              ./images/camera_desk@2x.png 2x
+              ./img/sign-up/camera_desk@1x.png 1x,
+              ./img/sign-up/camera_desk@2x.png 2x
             "
           />
           <img
             class="sign-up-camera-picture"
-            src="./images/camera_desk@x1.png"
+            src="./img/sign-up/camera_desk.png"
             alt="Photo Camera"
           />
         </picture>
