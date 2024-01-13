@@ -1,9 +1,29 @@
 
+.hero-background {
+    background-image: url(../img/hero/bg.mob@1x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+}
+  
 .hero {
-    margin-top: 90px;
-    margin-right: 20px;
-    margin-bottom: 80px;
-    margin-left: 20px;
+    margin: 90px 20px 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        margin: 90px 20px 80px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero {
+        margin-top: 90px;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        margin-left: 20px;
+    }
 }
 
 .hero-container.container {
@@ -21,8 +41,8 @@
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -0.04em;
-
     padding-bottom: 20px;
+    max-width: 295px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -52,9 +72,10 @@
     font-family: DM Sans;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.29; /* 128.571% */
+    line-height: 1.29;
     letter-spacing: -0.02em;
     padding-bottom: 40px;
+    max-width: 295px;
 }
 
 .happy-students {
@@ -127,7 +148,8 @@
     fill: #FFF;
 }
 
-.hero-star {    display: flex;
+.hero-star {    
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 44px;
@@ -161,3 +183,12 @@
     letter-spacing: -0.04em;
     width: 57px;
 }
+
+.photographer-photo {
+    margin: 0 auto;
+    max-width: 259px;
+    max-height: 314px;
+}
+
+
+
