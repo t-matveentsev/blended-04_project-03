@@ -9,6 +9,7 @@
         line-height: 1.14;
         letter-spacing: -0.02em;
         text-transform: uppercase;
+
         
 }
 
@@ -32,10 +33,10 @@
    width: 588px;
     height: 72px;
     padding: 0;
-    display: inline-flex;
+       /* display: inline-flex;
         justify-content: center;
-        align-items: center;
-    overflow: hidden;
+        align-items: center;*/
+        overflow: hidden;
         border-top: 1px solid rgba(255, 255, 255, 0.20);
         border-bottom: 1px solid rgba(255, 255, 255, 0.20);
 }      
@@ -63,7 +64,7 @@
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    
+    /*margin-top: 20px;*/
 }
 
 @keyframes advertisement{
@@ -75,3 +76,8 @@
         transform: translateX(-100%);
     }
 }
+@media only screen and (min-width: 768px) {
+    .running-line {
+        margin-top: 24px;
+    }
+    }
