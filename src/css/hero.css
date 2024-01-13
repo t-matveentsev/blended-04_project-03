@@ -1,188 +1,185 @@
 .hero-background {
-    background-image: url(../img/hero/bg.mob@1x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: transparent;
+  background-image: url(../img/hero/bg.mob@1x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
 }
-  
+
 .hero {
-    margin: 90px 20px 80px;
+  margin: 90px 20px 80px;
 }
 
 @media only screen and (min-width: 768px) {
-    .hero {
-        margin: 120px 32px 100px;
-    }
+  .hero {
+    margin: 120px 32px 100px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero {
-        margin: 160px 100px 150px;
-    }
+  .hero {
+    margin: 160px 100px 150px;
+  }
 }
 
 .hero-container.container {
-    width: 100%;
-    border-radius: 30px;
-    background: #1D1D1D;
-    padding-top: 40px; 
+  width: 100%;
+  border-radius: 30px;
+  background: #1d1d1d;
+  padding-top: 40px;
 }
 
 .hero-title {
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: -0.04em;
-    padding-bottom: 20px;
-    max-width: 295px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  padding-bottom: 20px;
+  max-width: 295px;
 }
 
 @media only screen and (min-width: 768px) {
-    .hero-title {
-        padding-top: 120px;
-    }
+  .hero-title {
+    padding-top: 120px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero-title {
-        padding-top: 160px;
-    }
+  .hero-title {
+    padding-top: 160px;
+  }
 }
 
 .hero-accent {
-    color: #BEA69E;
-    font-family: DM Sans;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 1.1;
-    letter-spacing: -0.04em;
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
 }
 
 .hero-text {
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    padding-bottom: 40px;
-    max-width: 295px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  padding-bottom: 40px;
+  max-width: 295px;
 }
 
 .happy-students {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .reviews-chart {
-    display: flex;
-    align-items: center;
-    width: 104px;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  width: 104px;
+  gap: 12px;
 }
 
 .happy-students-photos {
-    display: flex;
+  display: flex;
 }
 
 .student-photo {
-    width: 44px;
-    height: 44px;
-    border-radius: 100px;
-    border: 2px solid #1D1D1D;
-
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  border: 2px solid #1d1d1d;
 }
 
 .first {
-    position: relative;
-    z-index: 3;
+  position: relative;
+  z-index: 3;
 }
 
 .second {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .third {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .student-photo:nth-child(1) {
-    margin-right: -12px;
+  margin-right: -12px;
 }
 
 .student-photo:nth-child(2) {
-    margin-right: -12px;
+  margin-right: -12px;
 }
 
-.hero-reviews-link {    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 4px;
+.hero-reviews-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
 }
 
 .happy-students-link {
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29;
-    letter-spacing: -0.04em;
-    width: 67px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  width: 67px;
 }
 
 .hero-arrow {
-    fill: #FFF;
+  fill: #fff;
 }
 
-.hero-star {    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    flex-shrink: 0;
-    border-radius: 100px;
-    background-color: #BEA69E;
+.hero-star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background-color: #bea69e;
 }
 
 .star {
-    fill: none;
-    stroke: #121212;
+  fill: none;
+  stroke: #121212;
 }
 
 .hero-reviews-text {
-    color: rgba(255, 255, 255, 0.50);
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29;
-    letter-spacing: -0.04em;
-    width: 57px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  width: 57px;
 }
 
 .hero-reviews-numbers {
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.13;
-    letter-spacing: -0.04em;
-    width: 57px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: -0.04em;
+  width: 57px;
 }
 
 .photographer-photo {
-    margin: 0 auto;
-    max-width: 259px;
-    max-height: 314px;
+  margin: 0 auto;
+  max-width: 259px;
+  max-height: 314px;
 }
-
-
-
