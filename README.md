@@ -3,7 +3,7 @@
 <h2>Developers</h2>
 
 <a href="https://github.com/t-matveentsev" target="_blank">Tema
-Matveentsev</a> - <p>Header</p>
+Matveentsev</a>&nbsp;-&nbsp;<p>Header</p>
 
 <a href="https://github.com/TaniaFed" target="_blank">Tetiana Kryshenyk</a> -
 
