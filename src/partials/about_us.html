@@ -1,14 +1,14 @@
-<section class="section">
+<section class="section" id="about-us">
   <div class="container">
     <h2 class="section-about">About <span class="accent">Us</span></h2>
     <div>
       <picture>
-        <!-- Mobile -->
+        <!-- Desktop -->
         <source
-          media="(max-width: 767px)"
+          media="(min-width: 1280px)"
           srcset="
-            ./img/about/mob.foto@1x.png 1x,
-            ./img/about/mob.foto@2x.png 2x
+            ./img/about/mindesk.foto@1x.png 1x,
+            ./img/about/mindesk.foto@2x.png 2x
           "
         />
         <!-- Tablet -->
@@ -19,18 +19,22 @@
             ./img/about/tab.foto@2x.png 2x
           "
         />
-        <!-- Desktop -->
+
+        <!-- Mobile -->
         <source
-          media="(min-width: 1280px)"
+          media="(max-width: 767px)"
           srcset="
-            ./img/about/mindesk.foto@1x.png 1x,
-            ./img/about/mindesk.foto@2x.png 2x
+            ./img/about/mob.foto@1x.png 1x,
+            ./img/about/mob.foto@2x.png 2x
           "
         />
+
         <img
-          src="./img/about/mob.foto@1x.png"
+          class="about-us-pic"
+          src="./img/about/mob.foto.png"
           alt="photo camera"
           width="209"
+          height="335"
           loading="lazy"
         />
       </picture>
