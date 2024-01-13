@@ -1,34 +1,52 @@
 @media only screen and (min-width: 768px) {
-  .sign-up {
+  .sign-up-main {
     padding-left: 32px;
     max-width: 768px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .sign-up {
+  .sign-up-main {
     padding-left: 100px;
     max-width: 1280px;
   }
 }
 
-h2 {
+@media only screen and (min-width: 1280px) {
+  .sign-up {
+    margin-right: 60px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sign-up-oval-lens {
+    margin-right: 20px;
+  }
+}
+
+.title-sign-up {
   color: #fff;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
+
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  h2 {
+  .title-sign-up {
     font-size: 48px;
     line-height: 1.12;
   }
 }
 
-p {
+.accent {
+  color: #bea69e;
+}
+
+.sign-up-paragraph {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
@@ -36,15 +54,16 @@ p {
   letter-spacing: -0.02em;
 
   max-width: 295px;
-  margin-bottom: 40px;
+  margin-bottom: 41px;
 }
 
 @media only screen and (min-width: 768px) {
-  p {
+  .sign-up-paragraph {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
     max-width: 480px;
+    margin-bottom: 40px;
   }
 }
 
@@ -77,7 +96,6 @@ p {
 
   outline: none;
   background-color: transparent;
-
   margin-bottom: 8px;
 }
 
@@ -126,7 +144,6 @@ p {
   line-height: 1.28;
   background: transparent;
   outline: none;
-
   margin-bottom: 40px;
 }
 
@@ -142,12 +159,7 @@ p {
   }
 }
 
-.form-comment:focus {
-  border-color: rgba(255, 255, 255, 0.5);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-textarea {
+.form-comment {
   font-family: inherit;
 }
 
@@ -167,7 +179,6 @@ textarea {
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
-
   display: flex;
   width: 100%;
   padding: 14px 127px;
@@ -175,7 +186,7 @@ textarea {
   align-items: center;
 
   border-radius: 12px;
-  background: var(--white, #fff);
+  background: #fff;
   border-style: none;
   cursor: pointer;
   margin-bottom: 20px;
@@ -210,4 +221,59 @@ textarea {
 
 .privacy-policy-accent {
   text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 1279.98px) {
+  .sign-up-picture {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sign-up-main {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sign-up-picture {
+    display: flex;
+  }
+}
+
+.sign-up-oval-lens {
+  width: 180px;
+  height: 288px;
+  flex-shrink: 0;
+
+  border-radius: 1000px;
+  background: #bea69e;
+
+  position: relative;
+  top: 252px;
+}
+
+.sign-up-oval-camera {
+  width: 340px;
+  height: 540px;
+  flex-shrink: 0;
+
+  border-radius: 1000px;
+  background: #1d1d1d;
+}
+
+.sign-up-lens-picture {
+  width: 150px;
+  height: 142px;
+
+  margin-top: 76px;
+}
+
+.sign-up-camera-picture {
+  width: 240px;
+  height: 296px;
+
+  position: relative;
+  top: 156px;
+  left: 50px;
 }
