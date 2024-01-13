@@ -9,10 +9,8 @@
         line-height: 1.14;
         letter-spacing: -0.02em;
         text-transform: uppercase;
-       /* overflow: hidden;*/
-
+        
 }
-
 
 @media only screen and (min-width: 768px) {
     .block-title {
@@ -31,12 +29,13 @@
 }
 
 .block {
-    width: 588px;
+   width: 588px;
     height: 72px;
+    padding: 0;
     display: inline-flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+    overflow: hidden;
         border-top: 1px solid rgba(255, 255, 255, 0.20);
         border-bottom: 1px solid rgba(255, 255, 255, 0.20);
 }      
@@ -45,15 +44,14 @@
 .block{
     width: 840px;
     height: 98px;
-    gap: 24px;
-border-top: 1px solid rgba(255, 255, 255, 0.20);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+
 }
 }
 @media only screen and (min-width: 1280px) {
     .block {
-        width: 1280px;
+       width: 1280px;
         height: 112px;
+
     }
     }
 .running-line {
@@ -62,9 +60,10 @@ border-top: 1px solid rgba(255, 255, 255, 0.20);
     min-width: 100%;
     white-space: nowrap;
     animation-name: advertisement;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    
 }
 
 @keyframes advertisement{
