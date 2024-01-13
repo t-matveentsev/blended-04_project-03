@@ -3,13 +3,14 @@
 <h2>Developers</h2>
 
 <a href="https://github.com/AgentGarrus" target="_blank">Жека Тодеренку</a>
-Matveentsev</a> <a href="https://github.com/TaniaFed" target="_blank">Tetiana
-Kryshenyk</a> <a href="https://github.com/Alla186" target="_blank">Алла
-Гонтарук</a> <a href="https://github.com/t-matveentsev" target="_blank">Tema
+<a href="https://github.com/TaniaFed" target="_blank">Tetiana Kryshenyk</a>
+<a href="https://github.com/Alla186" target="_blank">Алла Гонтарук</a>
 <a href="https://github.com/Cassel444" target="_blank">Lesia Sasiuk</a>
+<a href="https://github.com/t-matveentsev" target="_blank">Tema Matveentsev</a>
 <a href="https://github.com/DanielaChud" target="_blank">Daniela</a>
 <a href="https://github.com/muzykanick" target="_blank">Nick Muzyka</a>
 <a href="https://github.com/gallesSs" target="_blank">Артур Гаврик</a>
+
 <a href="https://github.com/OksanaHalenko" target="_blank">Oksana Halenko</a>
 
 <h2>Scram master</h2>
