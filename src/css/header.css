@@ -1,0 +1,268 @@
+.desk-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+
+  /* реалізація фіксованої шапки */
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 998;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+
+  background-color: #121212;
+  margin: 20px 0;
+  padding: 9px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+@media only screen and (min-width: 768px) {
+  .head-wrapper {
+    padding: 0;
+  }
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header-logo {
+  fill: #ffffff;
+}
+@media only screen and (min-width: 768px) {
+  .header-logo {
+    padding: 13px 0;
+  }
+}
+
+.navigation-list {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .navigation-list {
+    display: flex;
+    gap: 28px;
+    padding-left: 97px;
+  }
+  .header-list-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-list-item:hover,
+  .header-list-item:focus {
+    color: #bea69e;
+  }
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+@media only screen and (min-width: 1280px) {
+  .btn-wrapper {
+    gap: 20px;
+  }
+}
+.camera-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  fill: #bea69e66;
+  background-color: #1d1d1d;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.camera-link:hover,
+.camera-link:focus {
+  fill: #bea69e;
+}
+@media only screen and (min-width: 768px) {
+  .camera-link {
+    display: none;
+  }
+}
+
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+  padding: 0;
+
+  border: none;
+  background-color: inherit;
+  stroke: white;
+}
+.menu-btn-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+  padding: 0;
+
+  border: none;
+  background-color: inherit;
+  stroke: white;
+}
+@media only screen and (max-width: 767.98px) {
+  .menu-btn-tab {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .menu-btn {
+    display: none;
+  }
+  .menu-btn-tab {
+    display: none;
+  }
+}
+
+.desk-btn {
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px 58px;
+  border-radius: 12px;
+  background-color: #ffffff;
+
+  color: #121212;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.56;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 767.98px) {
+  .desk-btn {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .desk-btn {
+    min-width: 238px;
+  }
+}
+
+/* mobile menu */
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  background: rgba(18, 18, 18, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+  z-index: 999;
+}
+
+.modal {
+  position: absolute;
+
+  width: 60vw;
+  height: 100vh;
+  background-color: #bea69e;
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 32px;
+  width: 32px;
+
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 0;
+
+  stroke: #121212;
+  background-color: inherit;
+  border: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu-btn {
+    height: 40px;
+    width: 40px;
+
+    right: 32px;
+  }
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding-top: 188px;
+  padding-left: 20px;
+  padding-bottom: 133px;
+  color: #121212;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.menu-accent {
+  font-weight: 700;
+}
+@media only screen and (min-width: 768px) {
+  .menu-list {
+    gap: 28px;
+
+    padding-top: 232px;
+    padding-left: 64px;
+    padding-bottom: 114px;
+  }
+}
+.menu-img {
+  width: 100%;
+}
