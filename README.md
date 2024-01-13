@@ -1,4 +1,4 @@
-<h1 align="center">Blended_4_Project_3</h1>
+<h1 align="center">Group blended 4 Project 3</h1>
 <p align="center">Project<a href="https://www.figma.com/file/svYOWHs6LAsoqMyYuTke8q/FocusFrame-2.0?type=design&node-id=0-1&mode=design&t=KgkgnwTmWmUmRpGu-0">Focus.Frame</a></p>
 <h2>Developers</h2>
 
