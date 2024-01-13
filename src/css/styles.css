@@ -8,24 +8,12 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.hidd {
+  display: none;
 }
 
 body {
-  font-family: 'dm+sans', sans-serif;
+  font-family: 'DM sans', sans-serif;
   background-color: #121212;
   color: #ffffff;
   margin: 0;
@@ -39,7 +27,7 @@ main {
 }
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 h1,
 h2,
@@ -55,8 +43,7 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-ul,
-ol {
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -70,22 +57,26 @@ button {
   cursor: pointer;
 }
 
+.accent {
+  color: #bea69e;
+}
+
 /* відступи між секціями */
 .section {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .section {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 }
 
