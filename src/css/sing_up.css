@@ -263,10 +263,12 @@
 }
 
 .sign-up-lens-picture {
-  width: 150px;
-  height: 142px;
 
-  margin-top: 76px;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  transform: translate(-15%, 40%) scale(1.1);
 }
 
 .sign-up-camera-picture {
