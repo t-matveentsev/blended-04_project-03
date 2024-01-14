@@ -60,7 +60,7 @@
     margin-bottom: 25px;
   }
 }
-.footer-logo-icon {
+.footer-logo {
   fill: #ffffff;
 }
 .footer-cont-item {
@@ -105,6 +105,7 @@
 .footer-menu-item:not(:last-child) {
   margin-bottom: 14px;
 }
+
 .footer-soc-item:focus,
 .footer-menu-item:focus,
 .footer-soc-item:hover,
