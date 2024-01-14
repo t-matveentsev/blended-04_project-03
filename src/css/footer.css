@@ -1,32 +1,32 @@
 .footer {
   padding: 40px 0 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  background-image: url(./img/footer/Graphic_mob.png);
+  background-image: url(../img/footer/Graphic_mob.png);
 }
 @media only screen and (max-width: 767.98px) and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(./img/footer/Graphic_mob@2x.png);
+    background-image: url(../img/footer/Graphic_mob@2x.png);
   }
 }
 @media only screen and (min-width: 768px) {
   .footer {
-    background-image: url(./img/footer/Graphic_tab.png);
+    background-image: url(../img/footer/Graphic_tab.png);
     padding: 50px 0 25px;
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(./img/footer/Graphic_tab@2x.png);
+    background-image: url(../img/footer/Graphic_tab@2x.png);
   }
 }
 @media only screen and (min-width: 1280px) {
   .footer {
-    background-image: url(./img/footer/Graphic_desk.png);
+    background-image: url(../img/footer/Graphic_desk.png);
   }
 }
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(./img/footer/Graphic_desk@2x.png);
+    background-image: url(../img/footer/Graphic_desk@2x.png);
   }
 }
 .footer-wraper {
@@ -37,7 +37,7 @@
 @media only screen and (min-width: 768px) {
   .footer-wraper {
     flex-direction: row;
-    gap: 58px;
+    gap: 52px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -67,7 +67,7 @@
   color: #fff;
   font-size: 14px;
   font-style: normal;
-  line-height: 1.28;
+  line-height: 1.29;
 }
 .footer-cont-item:not(:last-child) {
   margin-bottom: 10px;
@@ -91,8 +91,6 @@
     margin-bottom: 50px;
   }
 }
-.footer-socials {
-}
 .footer-soc-item,
 .footer-menu-item {
   color: #fff;
@@ -101,15 +99,18 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-item:not(:last-child),
 .footer-menu-item:not(:last-child) {
   margin-bottom: 14px;
 }
-.footer-soc-item:hover,
+
 .footer-soc-item:focus,
-.footer-menu-item:hover,
-.footer-menu-item:focus {
+.footer-menu-item:focus,
+.footer-soc-item:hover,
+.footer-menu-item:hover {
+  outline: none;
   color: #bea69e;
 }
 .footer-soc-link {
@@ -150,6 +151,9 @@
   border: none;
   border-radius: 12px;
   background-color: #fff;
+}
+.footer-form-input:focus {
+  outline: none;
 }
 @media only screen and (min-width: 768px) {
   .footer-form-input {
