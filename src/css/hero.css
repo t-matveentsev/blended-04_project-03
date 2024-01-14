@@ -1,59 +1,73 @@
-.hero-background {
+.hero {
     background-image: url(../img/hero/bg.mob@1x.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: transparent;
-    min-width: 320px;
     max-width: 375px;
+    padding: 0 auto;
+    margin: 0 auto;
 }
 
 @media (min-resolution: 192dpi) {
-    .hero-background {
+    .hero {
         background-image: url(../img/hero/bg.mob@2x.png);
-    }    
+    }
 }
-  
+
 @media only screen and (min-width: 768px) {
-    .hero-background {
+    .hero {
         max-width: 768px;
         background-image: url(../img/hero/bg.tab@1x.png);
     }
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
-    .hero-background {
+    .hero {
         background-image: url(../img/hero/bg.tab@2x.png);
     }
 }
 
 /* Desktop and Desktop large */
 @media only screen and (min-width: 1280px) {
-    .hero-background {
+    .hero {
         max-width: 1440px;
         background-image: url(../img/hero/bg.desk@1x.png);
     }
 }
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-    .hero-background {
+    .hero {
         background-image: url(../img/hero/bg.desk@2x.png);
     }
 }
 
-.hero {
-    margin: 90px 20px 80px;
+.hero.container {
+    padding: 90px 20px 80px;
+    min-width: 320px;
 }
 
+
 @media only screen and (min-width: 768px) {
-    .hero {
-        margin: 120px 32px 100px;
+    .hero.container {
+        min-width: 768px;
+        max-width: 768px;
+        padding: 120px 32px 100px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero {
-        margin: 160px 100px 150px;
+    .hero.container {
+        min-width: 1280px;
+        max-width: 1280px;
+        padding: 160px 100px 150px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .hero.container {
+        min-width: 1440px;
+        max-width: 1440px;
     }
 }
 
@@ -62,28 +76,45 @@
     min-width: 335px;
     max-width: 375px;
     border-radius: 30px;
-    background: #1D1D1D; 
+    background: #1D1D1D;
+    padding: 40px 20px 0;
 }
 
 @media only screen and (min-width: 768px) {
     .hero-container {
-        width: 704px;
+        min-width: 704px;
+        max-width: 704px;
         padding: 64px 155px 0 32px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .hero-container {
-        width: 1080px;
+        display: flex;
+        min-width: 1080px;
+        max-width: 1080px;
         padding: 80px 50px 0;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .hero-container {
-        width: 1240px;
+        min-width: 1240px;
+        max-width: 1240px;
         padding: 80px 100px 0 50px;
     }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-info {
+        margin-right: 20px;
+  }
+}
+ 
+@media only screen and (min-width: 1440px) {
+    .hero-info {
+        margin-right: 130px;
+  }
 }
 
 .hero-title {
@@ -92,20 +123,19 @@
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -0.04em;
-    padding-top: 40px;
     padding-bottom: 20px;
     max-width: 295px;
 }
 
 @media only screen and (max-width: 767.98px) {
-   .hero-title br {
+    .hero-title br {
         display: none;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .hero-title {
-        width: 517px;
+        max-width: 517px;
         font-size: 60px;
         line-height: 1.067;
         letter-spacing: -0.04em;
@@ -114,9 +144,10 @@
 
 @media only screen and (min-width: 1280px) {
     .hero-title {
-        width: 563px;
+        min-width: 563px;
+        max-width: 563px;
         font-size: 64px;
-        line-height: 1.063; 
+        line-height: 1.063;
     }
 }
 
@@ -161,11 +192,18 @@
     max-width: 295px;
 }
 
-/* Tablet and  */
 @media only screen and (min-width: 768px) {
     .hero-text {
-        width: 418px;
+        min-width: 418px;
+        max-width: 418px;
     }
+}
+
+/* Desktop and Desktop lg */
+@media only screen and (min-width: 1280px) {
+    .hero-text{
+        padding-bottom: 136px;
+  }
 }
 
 .happy-students {
@@ -176,15 +214,35 @@
     padding-bottom: 31px;
 }
 
-.reviews-chart {
-    display: flex;
-    align-items: center;
-    width: 104px;
-    gap: 12px;
+@media only screen and (min-width: 768px) {
+    .happy-students {
+        padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+    .happy-students {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .reviews-link {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
 }
 
 .happy-students-photos {
     display: flex;
+    margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+    .happy-students-photos {
+        margin-bottom: 0;
+  }
 }
 
 .student-photo {
@@ -192,7 +250,6 @@
     height: 44px;
     border-radius: 100px;
     border: 2px solid #1D1D1D;
-
 }
 
 .first {
@@ -217,10 +274,28 @@
 .student-photo:nth-child(2) {
     margin-right: -12px;
 }
-.hero-reviews-link {    display: flex;
+
+.hero-reviews-link {
+    display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-reviews-link {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+        
+  }
+}
+
+.reviews-chart {
+    display: flex;
+    align-items: center;
+    width: 104px;
+    gap: 12px;
 }
 
 .happy-students-link {
@@ -237,7 +312,7 @@
     fill: #FFF;
 }
 
-.hero-star {    
+.hero-star {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -261,6 +336,13 @@
     line-height: 1.29;
     letter-spacing: -0.04em;
     width: 57px;
+    padding-bottom: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-reviews-text {
+        padding-bottom: 8px;
+  }
 }
 
 .hero-reviews-numbers {
@@ -278,3 +360,28 @@
     max-width: 259px;
     max-height: 314px;
 }
+
+@media only screen and (min-width: 768px) {
+    .photo-frame {
+        min-width: 393px;
+        min-height: 434px;
+    }
+    .photographer-photo {
+        margin: 0 123px;
+        max-width: 393px;
+        max-height: 434px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .photo-frame {
+        width: 397px;
+        height: 520px;
+    }
+    .photographer-photo {
+        margin: 0 auto;
+    }
+}
+
+
+
