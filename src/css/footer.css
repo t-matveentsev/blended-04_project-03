@@ -154,7 +154,7 @@
 .footer-form-input:focus {
   outline: none;
 }
-.footer-form-input @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .footer-form-input {
     max-width: 178px;
   }
