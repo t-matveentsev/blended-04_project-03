@@ -47,7 +47,6 @@
     min-width: 320px;
 }
 
-
 @media only screen and (min-width: 768px) {
     .hero.container {
         min-width: 768px;
@@ -108,13 +107,13 @@
 @media only screen and (min-width: 1280px) {
     .hero-info {
         margin-right: 20px;
-  }
+    }
 }
  
 @media only screen and (min-width: 1440px) {
     .hero-info {
         margin-right: 130px;
-  }
+    }
 }
 
 .hero-title {
@@ -203,7 +202,7 @@
 @media only screen and (min-width: 1280px) {
     .hero-text{
         padding-bottom: 136px;
-  }
+    }
 }
 
 .happy-students {
@@ -217,7 +216,7 @@
 @media only screen and (min-width: 768px) {
     .happy-students {
         padding-bottom: 40px;
-  }
+    }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -242,7 +241,7 @@
 @media only screen and (min-width: 768px) {
     .happy-students-photos {
         margin-bottom: 0;
-  }
+    }
 }
 
 .student-photo {
@@ -287,8 +286,7 @@
         align-items: flex-start;
         flex-direction: column;
         gap: 8px;
-        
-  }
+    }
 }
 
 .reviews-chart {
@@ -298,18 +296,27 @@
     gap: 12px;
 }
 
+.hero-reviews-link:hover,
+.hero-reviews-link:focus {
+    cursor: pointer;
+    color: #BEA69E;
+}
+
 .happy-students-link {
-    color: #FFF;
+    color: currentColor;
     font-family: DM Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.04em;
     width: 67px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-arrow {
     fill: #FFF;
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-star {
