@@ -1,8 +1,13 @@
 /* Mobile */
 
+.reviews img {
+  min-width: 100%;
+}
+
 .review-img {
   width: 56px;
   border-radius: 100px;
+  max-width: max-content;
 }
 
 .review-star {
@@ -49,7 +54,8 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
-  min-width: 335px;
+  min-width: 90%;
+  margin: 0 auto;
 }
 
 .reviews-title {
@@ -74,6 +80,7 @@
 }
 
 .card-info-item:nth-child(1) {
+  width: max-content;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -148,6 +155,7 @@
 
   .reviews-card {
     min-width: 530px;
+    min-height: 216px;
   }
 
   .card-list-text {
