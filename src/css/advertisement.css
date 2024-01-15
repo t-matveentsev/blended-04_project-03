@@ -28,13 +28,29 @@
 .accent-block {
     color: #FFF;
 }
-
+.block {
+    width: 100%;
+    height: 72px;
+    padding: 0;
+    overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+.block {
+    height: 98px;
+}
+}
+@media only screen and (min-width: 1280px) {
+    .block {
+        height: 112px;
+    }
+}
 .running-line {
+    flex-shrink: 0;
     margin: 0;
     min-width: 100%;
     white-space: nowrap;
     animation-name: advertisement;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     margin-top: 20px;
@@ -43,7 +59,7 @@
 
 @keyframes advertisement{
     from {
-        transform: translateX(0);
+        transform: translateX(100%);
     }
 
     to {
