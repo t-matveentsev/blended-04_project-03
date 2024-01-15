@@ -1,16 +1,16 @@
+/* реалізація фіксованої шапки */
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 998;
+}
 .desk-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 14px;
-
-  /* реалізація фіксованої шапки */
-  position: fixed;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  z-index: 998;
 }
 .header-wrapper {
   display: flex;
