@@ -22,7 +22,7 @@ mentors</p>
 <p><a href="https://github.com/gallesSs" target="_blank">Артур
 Гаврик</a> - Reviews</p>
 
-<p><a href="https://github.com/OksanaHalenko" target="_blank">Oksana Halenko</a> -Footer</p>
+<p><a href="https://github.com/OksanaHalenko" target="_blank">Oksana Halenko</a> - Footer</p>
 
 <h2>Scram master</h2>
 <a href="https://github.com/muzykanick" target="_blank">Nick Muzyka</a>
