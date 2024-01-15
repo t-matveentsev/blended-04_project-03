@@ -5,7 +5,6 @@
     background-size: cover;
     background-color: transparent;
     max-width: 375px;
-    padding: 0 auto;
     margin: 0 auto;
 }
 
@@ -42,64 +41,58 @@
     }
 }
 
-.hero.container {
+.hero.section {
+    width: 100%;
     padding: 90px 20px 80px;
-    min-width: 320px;
 }
 
 @media only screen and (min-width: 768px) {
-    .hero.container {
-        min-width: 768px;
+    .hero.section {
         max-width: 768px;
         padding: 120px 32px 100px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero.container {
-        min-width: 1280px;
+    .hero.section {
         max-width: 1280px;
         padding: 160px 100px 150px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .hero.container {
-        min-width: 1440px;
+    .hero.section {
         max-width: 1440px;
     }
-}
+} 
 
-.hero-container {
-    width: 100%;
-    min-width: 335px;
+.hero-container.container {
     max-width: 375px;
+    padding-top: 40px;
+    margin: 0 auto;
+    background: #1d1d1d;
     border-radius: 30px;
-    background: #1D1D1D;
-    padding: 40px 20px 0;
 }
 
 @media only screen and (min-width: 768px) {
-    .hero-container {
-        min-width: 704px;
+    .hero-container.container {
         max-width: 704px;
-        padding: 64px 155px 0 32px;
+        padding-top: 64px;
+        padding-left: 32px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero-container {
+    .hero-container.container {
         display: flex;
-        min-width: 1080px;
         max-width: 1080px;
         padding: 80px 50px 0;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .hero-container {
-        min-width: 1240px;
-        max-width: 1240px;
+    .hero-container.container {
+        max-width: 1440px;
         padding: 80px 100px 0 50px;
     }
 }
@@ -109,7 +102,7 @@
         margin-right: 20px;
     }
 }
- 
+
 @media only screen and (min-width: 1440px) {
     .hero-info {
         margin-right: 130px;
@@ -200,7 +193,7 @@
 
 /* Desktop and Desktop lg */
 @media only screen and (min-width: 1280px) {
-    .hero-text{
+    .hero-text {
         padding-bottom: 136px;
     }
 }
@@ -349,7 +342,7 @@
 @media only screen and (min-width: 768px) {
     .hero-reviews-text {
         padding-bottom: 8px;
-  }
+    }
 }
 
 .hero-reviews-numbers {
@@ -368,11 +361,11 @@
     max-height: 314px;
 }
 
+.hero.section img {
+    width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
-    .photo-frame {
-        min-width: 393px;
-        min-height: 434px;
-    }
     .photographer-photo {
         margin: 0 123px;
         max-width: 393px;
@@ -381,14 +374,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .photo-frame {
-        width: 397px;
-        height: 520px;
-    }
     .photographer-photo {
         margin: 0 auto;
+        max-width: 397px;
+        max-height: 520px;
     }
 }
-
-
-
