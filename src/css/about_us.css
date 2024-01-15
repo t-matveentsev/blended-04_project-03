@@ -1,4 +1,19 @@
+
+.section.about-section {
+    padding-top: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+.section.about-section {
+    padding-top: 100px;
+}
+}
+
 @media only screen and (min-width: 1280px) {
+.section.about-section {
+    padding-top: 150px;
+}
+}@media only screen and (min-width: 1280px) {
 .div-about {
     display: flex;
     flex-direction: row;
