@@ -14,10 +14,12 @@
               class="form-input"
               id="user-name"
               type="text"
+              required
               name="user-name"
               maxlength="32"
-              pattern="[A-Za-z]{1,32}"
+              pattern="[A-Za-zА-Яа-яґҐЁёІіЇїЄє'\s-]{2,20}{2,50}"
               placeholder="Enter your name"
+            />
             />
           </div>
           <div class="sign-up-form-input">
@@ -27,6 +29,7 @@
                 class="form-input"
                 id="email-address"
                 type="email"
+                required
                 name="email"
                 pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                 placeholder="Enter your email"
