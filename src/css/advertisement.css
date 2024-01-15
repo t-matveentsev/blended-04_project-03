@@ -19,14 +19,12 @@
         line-height: 1.25;
     }
 }
-
 @media only screen and (min-width: 1280px) {
     .block-title {
         font-size: 59px;
         line-height: 1.08;
     }
 }
-
 .accent-block {
     color: #FFF;
 }
@@ -43,7 +41,7 @@
     margin-bottom: 20px;
 }
 
-@keyframes advertisement {
+@keyframes advertisement{
     from {
         transform: translateX(0);
     }
@@ -52,10 +50,9 @@
         transform: translateX(-100%);
     }
 }
-
 @media only screen and (min-width: 768px) {
     .running-line {
      margin-top: 24px;
      margin-bottom: 24px;
     }
-}
+    }
