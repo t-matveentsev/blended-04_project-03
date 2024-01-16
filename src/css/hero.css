@@ -1,129 +1,78 @@
-.hero {
+.hero-section {
     background-image: url(../img/hero/bg.mob@1x.png);
-    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    background-color: transparent;
-    max-width: 375px;
-    /* margin: 0 auto; */
-    
-    width: 100%;
-    padding: 90px 20px 80px;
+    padding-top: 90px ;
+    padding-bottom: 80px;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 @media (min-resolution: 192dpi) {
-    .hero {
+    .hero-section {
         background-image: url(../img/hero/bg.mob@2x.png);
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .hero {
-        padding: 120px 32px 100px;
-        max-width: 768px;
+    .hero-section {
+        padding-top: 120px;
+        padding-bottom: 100px;
         background-image: url(../img/hero/bg.tab@1x.png);
     }
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
-    .hero {
+    .hero-section {
         background-image: url(../img/hero/bg.tab@2x.png);
     }
 }
 
-/* Desktop and Desktop large */
-@media only screen and (min-width: 1280px) {
-    .hero {
-        /* max-width: 1440px; */
-        max-width: 1280px;
-        padding: 160px 100px 150px;
+ @media only screen and (min-width: 1280px) {
+    .hero-section {
+        padding-top: 160px;
+        padding-bottom: 150px;
         background-image: url(../img/hero/bg.desk@1x.png);
     }
-}
+} 
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-    .hero {
+    .hero-section {
         background-image: url(../img/hero/bg.desk@2x.png);
     }
 }
 
-@media only screen and (min-width: 1440px) {
-    .hero {
-        max-width: 1440px;
-    }
-}
-
-/* .hero.section {
-   
-} */
-
-/* @media only screen and (min-width: 768px) {
-    .hero.section {
-        max-width: 768px;
-        padding: 120px 32px 100px;
-    }
-} */
-
-/* @media only screen and (min-width: 1280px) {
-    .hero.section {
-        max-width: 1280px;
-        padding: 160px 100px 150px;
-    }
-} */
-
-.hero-container {
-    max-width: 375px;
-    padding: 40px 20px 0;
-    margin: 0 auto;
+.hero {
     background: #1d1d1d;
     border-radius: 30px;
+    padding: 40px 20px 0;
 }
 
 @media only screen and (min-width: 768px) {
-    .hero-container {
-        max-width: 704px;
-        padding-top: 64px;
-        padding-left: 32px;
-    }
+    .hero {
+        padding: 64px 32px 0;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero-container {
+    .hero {
         display: flex;
-        
-        max-width: 1080px;
+        justify-content: space-between;
         padding: 80px 50px 0;
-    }
+  }
 }
 
 @media only screen and (min-width: 1440px) {
-    .hero-container {
-        /* max-width: 1240px; */
-        padding: 80px 100px 0 50px;
-    }
+    .hero {
+        padding-right: 100px;
+  }
 }
-
-
-@media only screen and (min-width: 1280px) {
-    .hero-info {
-        margin-right: 20px;
-    }
-}
-
-/* @media only screen and (min-width: 1440px) {
-    .hero-info {
-        margin-right: 130px;
-    }
-} */
 
 .hero-title {
-    font-family: DM Sans;
     font-size: 40px;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -0.04em;
     padding-bottom: 20px;
-    max-width: 295px;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -134,68 +83,35 @@
 
 @media only screen and (min-width: 768px) {
     .hero-title {
-        max-width: 517px;
         font-size: 60px;
         line-height: 1.067;
-        letter-spacing: -0.04em;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .hero-title {
-        min-width: 563px;
-        max-width: 563px;
         font-size: 64px;
         line-height: 1.063;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-    .hero-title {
-        line-height: 68px;
-        letter-spacing: -0.038em;
     }
 }
 
 .hero-accent {
     color: #BEA69E;
-    font-family: DM Sans;
-    font-size: 40px;
     font-style: italic;
     font-weight: 400;
-    line-height: 1.1;
-    letter-spacing: -0.04em;
-}
-
-@media only screen and (min-width: 768px) {
-    .hero-accent {
-        font-size: 60px;
-        line-height: 1.067;
-    }
-}
-
-@media only screen and (min-width: 1280px) {
-    .hero-accent {
-        font-size: 64px;
-        line-height: 1.063;
-    }
 }
 
 .hero-text {
-    font-family: DM Sans;
     font-size: 14px;
-    font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
     padding-bottom: 40px;
-    max-width: 295px;
 }
 
 @media only screen and (min-width: 768px) {
     .hero-text {
-        min-width: 418px;
-        max-width: 418px;
-    }
+        width: 418px;
+  }
 }
 
 /* Desktop and Desktop lg */
@@ -205,34 +121,27 @@
     }
 }
 
-.happy-students {
+.hero-reviews {
     display: flex;
-    justify-content: start;
-    align-items: flex-start;
     gap: 40px;
     padding-bottom: 31px;
 }
 
-/* @media only screen and (max-width: 375px) {
-    .happy-students {
-        justify-content: space-between;
-  }
-} */
-
 @media only screen and (min-width: 768px) {
-    .happy-students {
-        padding-bottom: 40px;
-    }
+   .hero-reviews {
+      align-items: center;
+      padding-bottom: 40px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .happy-students {
-        padding-bottom: 50px;
-    }
+   .hero-reviews {
+      padding-bottom: 50px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .reviews-link {
+    .users-photos {
         display: flex;
         align-items: center;
         gap: 12px;
@@ -280,47 +189,44 @@
     margin-right: -12px;
 }
 
-.hero-reviews-link {
+.hero-anchor {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     gap: 4px;
 }
 
 @media only screen and (min-width: 768px) {
-    .hero-reviews-link {
+    .hero-anchor {
         align-items: flex-start;
         flex-direction: column;
         gap: 8px;
     }
 }
 
-.reviews-chart {
-    display: flex;
-    align-items: center;
-    width: 104px;
-    gap: 12px;
-}
-
-.hero-reviews-link:hover,
-.hero-reviews-link:focus {
+.hero-anchor:hover,
+.hero-anchor:focus {
     cursor: pointer;
     color: #BEA69E;
 }
 
-.happy-students-link {
-    color: currentColor;
-    font-family: DM Sans;
+.hero-reviews-text {
     font-size: 14px;
-    font-weight: 400;
     line-height: 1.29;
-    letter-spacing: -0.04em;
     width: 67px;
+    letter-spacing: -0.04em;
+    color: currentColor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media only screen and (min-width: 768px) {
+    .hero-reviews-text {
+        font-size: 16px;
+        line-height: 1.25;
+        width: 82px;
+  }
+}
+
 .hero-arrow {
-    fill: #FFF;
     fill: currentColor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -341,40 +247,40 @@
     stroke: #121212;
 }
 
-.hero-reviews-text {
+.reviews-chart {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 104px;
+    gap: 12px;
+}
+
+.star-accent {
     color: rgba(255, 255, 255, 0.50);
-    font-family: DM Sans;
     font-size: 14px;
-    font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.04em;
-    width: 57px;
-    padding-bottom: 4px;
 }
 
 @media only screen and (min-width: 768px) {
-    .hero-reviews-text {
-        padding-bottom: 8px;
-    }
+   .star-accent {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
-.hero-reviews-numbers {
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 16px;
+.star-numbers {
     font-weight: 500;
     line-height: 1.13;
     letter-spacing: -0.04em;
-    width: 57px;
 }
 
-.photographer-photo {
-    margin: 0 auto;
-    max-width: 259px;
-    max-height: 314px;
+.hero-photo {
+    display: flex;
+    justify-content: center;
 }
 
-.hero.section img {
+.hero-section img {
     width: 100%;
 }
 
