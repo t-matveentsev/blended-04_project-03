@@ -80,6 +80,12 @@
 }
 .footer-cont-tel {
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-cont-tel:hover,
+.footer-cont-tel:focus {
+  outline: none;
+  color: #bea69e;
 }
 .footer-links-wraper {
   display: flex;
@@ -99,36 +105,29 @@
 }
 .footer-soc-item,
 .footer-menu-item {
-  color: #fff;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-item:not(:last-child),
 .footer-menu-item:not(:last-child) {
   margin-bottom: 14px;
 }
-
-.footer-soc-item:focus,
-.footer-menu-item:focus,
-.footer-soc-item:hover,
-.footer-menu-item:hover {
+.footer-soc-link,
+.footer-menu-link {
+  color: #fff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-soc-link:focus,
+.footer-menu-link:focus,
+.footer-soc-link:hover,
+.footer-menu-link:hover {
   outline: none;
   color: #bea69e;
 }
-.footer-soc-link {
-}
-.footer-menu {
-}
-.footer-menu-list {
-}
-.footer-menu-link {
-}
-.footer-subscribe {
-}
+
 .footer-form {
   display: flex;
   gap: 8px;
@@ -157,9 +156,12 @@
   border: none;
   border-radius: 12px;
   background-color: #fff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-form-input:focus {
+.footer-form-input:focus,
+.footer-form-input:hover {
   outline: none;
+  color: #bea69e;
 }
 @media only screen and (min-width: 768px) {
   .footer-form-input {
@@ -191,10 +193,37 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.2;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  outline: none;
+  color: #bea69e;
 }
 .footer-rights {
   display: flex;
   justify-content: space-between;
+}
+.footer-ringht-left {
+  display: flex;
+  flex-direction: column;
+}
+.footer-right-link {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media only screen and (min-width: 768px) {
+  .footer-right-link {
+    font-size: 14px;
+  }
+}
+.footer-right-link:hover,
+.footer-right-link:focus {
+  outline: none;
+  color: #bea69e;
 }
 .footer-right {
   font-size: 12px;
