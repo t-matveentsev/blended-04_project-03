@@ -122,7 +122,7 @@
 }
 
 .form-input::placeholder {
-  color: fff;
+  color: #FFF;
   opacity: 0.7;
 }
 
@@ -164,7 +164,7 @@
 }
 
 .form-comment::placeholder {
-  color: fff;
+  color: #FFF;
   opacity: 0.7;
 }
 
@@ -226,6 +226,10 @@
 .privacy-policy-accent:focus,
 .privacy-policy-accent:hover {
   color: #bea69e;
+}
+
+.privacy-policy-accent {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1279.98px) {
