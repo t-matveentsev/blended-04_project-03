@@ -18,7 +18,7 @@ Matveentsev</a> - Header</p>
 <p><a href="https://github.com/DanielaChud" target="_blank">Daniela</a> - Our
 mentors</p>
 
-<p><a href="https://github.com/muzykanick" target="_blank">Nick Muzyka</a> - Sing up</p>
+<p><a href="https://github.com/muzykanick" target="_blank">Nick Muzyka</a> - Sign up</p>
 
 <p><a href="https://github.com/gallesSs" target="_blank">Артур
 Гаврик</a> - Reviews</p>
