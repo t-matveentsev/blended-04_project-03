@@ -260,11 +260,16 @@
   line-height: 1.29;
   letter-spacing: -0.04em;
 }
-
+.star-text {
+  padding-bottom: 4px;
+}
 @media only screen and (min-width: 768px) {
   .star-accent {
     font-size: 16px;
     line-height: 1.25;
+  }
+  .star-text {
+    padding-bottom: 8px;
   }
 }
 
