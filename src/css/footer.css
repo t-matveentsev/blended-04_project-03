@@ -68,6 +68,13 @@
 }
 .footer-logo {
   fill: #ffffff;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  fill: #bea69e;
 }
 .footer-cont-item {
   color: #fff;

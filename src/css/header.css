@@ -42,7 +42,15 @@
 
 .header-logo {
   fill: #ffffff;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.header-logo:hover,
+.header-logo:focus {
+  fill: #bea69e;
+}
+
 @media only screen and (min-width: 768px) {
   .header-logo {
     padding: 13px 0;
@@ -94,7 +102,8 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .camera-link:active,
-.camera-link:focus {
+.camera-link:focus,
+.camera-link:hover {
   fill: #bea69e;
 }
 @media only screen and (min-width: 768px) {
@@ -114,8 +123,14 @@
   border: none;
   background-color: inherit;
   stroke: white;
-}
 
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.open-menu-btn:active,
+.open-menu-btn:focus,
+.open-menu-btn:hover {
+  stroke: #bea69e;
+}
 .open-menu-btn-tab {
   display: flex;
   justify-content: center;
@@ -127,6 +142,13 @@
   border: none;
   background-color: inherit;
   stroke: white;
+
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.open-menu-btn-tab:active,
+.open-menu-btn-tab:focus,
+.open-menu-btn-tab:hover {
+  stroke: #bea69e;
 }
 @media only screen and (max-width: 767.98px) {
   .open-menu-btn-tab {
@@ -239,6 +261,14 @@
   stroke: #121212;
   background-color: inherit;
   border: none;
+
+  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-menu-btn:hover,
+.close-menu-btn:focus,
+.close-menu-btn:active {
+  scale: 1.2;
 }
 
 @media only screen and (min-width: 768px) {
