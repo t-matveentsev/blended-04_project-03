@@ -197,8 +197,8 @@
   }
 }
 
-.hero-anchor:hover,
-.hero-anchor:focus {
+.hero-reviews-text:hover,
+.hero-reviews-text:focus {
   cursor: pointer;
   color: #bea69e;
 }
