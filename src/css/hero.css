@@ -284,10 +284,6 @@
   justify-content: center;
 }
 
-.hero-section img {
-  width: 100%;
-}
-
 @media only screen and (min-width: 768px) {
   .photographer-photo {
     margin: 0 123px;
