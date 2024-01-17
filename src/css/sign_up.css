@@ -254,6 +254,10 @@ textarea {
   text-decoration-line: underline;
 }
 
+.privacy-policy-accent {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 1279.98px) {
   .sign-up-picture {
     display: none;
