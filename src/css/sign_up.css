@@ -122,7 +122,7 @@
 }
 
 .form-input::placeholder {
-  color: fff;
+  color: #FFF;
   opacity: 0.7;
 }
 
@@ -164,7 +164,7 @@
 }
 
 .form-comment::placeholder {
-  color: fff;
+  color: #FFF;
   opacity: 0.7;
 }
 
