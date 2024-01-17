@@ -262,13 +262,13 @@
   background-color: inherit;
   border: none;
 
-  transition: bold 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-menu-btn:hover,
 .close-menu-btn:focus,
 .close-menu-btn:active {
-  font-weight: bold;
+  scale: 1.2;
 }
 
 @media only screen and (min-width: 768px) {
