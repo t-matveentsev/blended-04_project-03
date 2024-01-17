@@ -72,7 +72,7 @@
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -0.04em;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -105,7 +105,7 @@
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -117,26 +117,26 @@
 /* Desktop and Desktop lg */
 @media only screen and (min-width: 1280px) {
     .hero-text {
-        padding-bottom: 136px;
+        margin-bottom: 136px;
     }
 }
 
 .hero-reviews {
     display: flex;
     gap: 40px;
-    padding-bottom: 31px;
+    margin-bottom: 31px;
 }
 
 @media only screen and (min-width: 768px) {
    .hero-reviews {
       align-items: center;
-      padding-bottom: 40px;
+      margin-bottom: 40px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
    .hero-reviews {
-      padding-bottom: 50px;
+      margin-bottom: 50px;
   }
 }
 
