@@ -18,7 +18,7 @@ const menuBlock = document.querySelector(`.mobile-menu`);
 const buttonMenuOpen = document.querySelector(`.open-menu-btn`);
 const buttonMenuOpenTab = document.querySelector(`.open-menu-btn-tab`);
 
-const closeMenu = document.querySelector(window)
+const closeMenu = document.querySelector(`.section about-section`, `.running`)
 
 const listenFoo = () => {
   menuBlock.classList.toggle("is-open")
