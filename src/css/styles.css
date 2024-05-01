@@ -8,8 +8,8 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
-.hidd {
-  display: none;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
